@@ -33,7 +33,7 @@ puts "Where would you like to travel today? Or select \"Exit\" to quit".colorize
 puts
 #select the travel destinations
 while true 
-    destination = TTY::Prompt.new.select("Please select from the following options:",  cycle: true, marker: '>', echo: false) do |places|
+    destination = TTY::Prompt.new.select("Please select from the following options:",  cycle: true, marker: '->', echo: false) do |places|
         places.choice('Melbourne', 1)
         places.choice('Sydney', 2 )
         places.choice('Perth', 3)

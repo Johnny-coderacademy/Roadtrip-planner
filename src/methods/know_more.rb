@@ -1,7 +1,7 @@
 require "tty-prompt"
 def know_more
     prompt = TTY::Prompt.new
-    option = prompt.select("Would you like to know more?", %w(Yes No))
+    option = prompt.select("Would you like to know more?", %w(Yes No),marker: '->')
     case option
     when "Yes"
         puts
