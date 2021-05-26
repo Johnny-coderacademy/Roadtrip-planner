@@ -17,7 +17,8 @@ class Cities
         puts
         puts "* What a great choice! #{@description}".colorize(:light_blue)
         puts
-        puts "* Your trip is #{@distance} kms".colorize(:light_blue)
+        puts "* Your estimated travel distance is #{@distance} kms".colorize(:light_blue)
+        puts
     end
 
 end
