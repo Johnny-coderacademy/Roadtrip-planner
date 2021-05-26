@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    artii (2.1.2)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  artii (~> 2.1)
+
+BUNDLED WITH
+   2.2.17
