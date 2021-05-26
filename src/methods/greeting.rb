@@ -12,4 +12,5 @@ end
 def greeting
     puts
     puts "Wanting to have a roadtrip? You have come to the right place!".colorize(:yellow)
+    print "We are here in Brisbane, please enter your name: ".colorize(:yellow)
 end
