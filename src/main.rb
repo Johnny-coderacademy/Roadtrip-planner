@@ -25,9 +25,10 @@ end
 motorcylist = User.new(user_name)
 puts
 puts "Let's get going #{motorcylist.name}!".colorize(:green)
+puts "Where would you like to travel today? Or select \"Exit\" to quit".colorize(:green)
 #select the travel destinations
 while true 
-    selection = TTY::Prompt.new.select("Where would you like to travel today? Please select from the following options:",  cycle: true, marker: '>', echo: false) do |places|
+    selection = TTY::Prompt.new.select("Please select from the following options:",  cycle: true, marker: '>', echo: false) do |places|
         places.choice('Melbourne', 1)
         places.choice('Sydney', 2 )
         places.choice('Perth', 3)
