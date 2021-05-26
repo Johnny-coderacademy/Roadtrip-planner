@@ -3,6 +3,7 @@ require_relative "methods/greeting"
 require_relative "classes/cities"
 require_relative "methods/choose_vehicle"
 require_relative "classes/fuel_consumption"
+require_relative "methods/know_more"
 require "lolize"
 logo
 greeting
@@ -26,8 +27,10 @@ while user_name_count < 3
 end
 motorcylist = User.new(user_name)
 puts
-puts "Let's get going #{motorcylist.name}!".colorize(:green)
-puts "Where would you like to travel today? Or select \"Exit\" to quit".colorize(:green)
+puts "Let's get going #{motorcylist.name}!".colorize(:light_blue)
+puts
+puts "Where would you like to travel today? Or select \"Exit\" to quit".colorize(:light_blue)
+puts
 #select the travel destinations
 while true 
     selection = TTY::Prompt.new.select("Please select from the following options:",  cycle: true, marker: '>', echo: false) do |places|
@@ -40,20 +43,24 @@ while true
         when 1
             melbourne = Cities.new("Melbourne","This is the most liveable city in the world!", 2200)
             melbourne.display_distance  
-            choose_vehicle_to_melbourne
+            choose_vehicle
         when 2
             sydney = Cities.new("Sydney","Here is where you get to see the Opera House!", 1100)
             sydney.display_distance
-            
+            choose_vehicle
         when 3
             perth = Cities.new("Perth","The capital of Western Australia", 4100)
             perth.display_distance
+            choose_vehicle
         when 4
             cairns = Cities.new("Cairns","What a beautiful city, the number one city in Far North Queensland with a world wonder - The Barrier Reef", 1600)
             cairns.display_distance
+            choose_vehicle
         when 5
-            puts "Thank you #{user_name}!".colorize(:green)
-            puts "I hope to see you on the road soon!".colorize(:green)
+            puts
+            puts "Thank you #{user_name}!".colorize(:light_blue)
+            puts
+            puts "I hope to see you on the road soon!".colorize(:light_blue)
             exit
         end
     end 

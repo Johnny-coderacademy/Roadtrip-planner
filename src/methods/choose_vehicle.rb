@@ -1,21 +1,23 @@
 require "tty-prompt"
+#require_relative "methods/know_more"
 
-def choose_vehicle_to_melbourne
+def choose_vehicle
     car = Car.new(0.7)
     motorbike = Motorbike.new(0.4)
-
     prompt = TTY::Prompt.new
     selection = prompt.select("How would you like to travel?", %w(Car Motorbike))
     puts
     case selection
     when "Car"
-        puts car.show_fuel_consumption
+        puts car.show_fuel_consumption.colorize(:light_blue)
         puts
-        puts car.show_total_fuel_cost_melbourne
+        know_more
         puts
-        exit 
     when "Motorbike"
-        puts motorbike.show_fuel_consumption 
+        puts motorbike.show_fuel_consumption.colorize(:light_blue)
+        puts
+        know_more
+        puts
     end
 
 end
