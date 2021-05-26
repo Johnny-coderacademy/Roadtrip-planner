@@ -42,27 +42,43 @@ while true
         case destination
         when 1
             melbourne = Cities.new("Melbourne","This is the most liveable city in the world!", 2200)
-            melbourne.confirmation
-            melbourne.display_feature
-            melbourne.display_distance
+            puts
+            puts melbourne.confirmation.colorize(:light_blue)
+            puts
+            puts melbourne.display_feature.colorize(:light_blue)
+            puts
+            puts melbourne.display_distance.colorize(:light_blue)
+            puts
             choose_vehicle
         when 2
             sydney = Cities.new("Sydney","Here is where you get to see the Opera House!", 1100)
-            sydney.confirmation
-            sydney.display_feature
-            sydney.display_distance
+            puts
+            puts sydney.confirmation.colorize(:light_blue)
+            puts
+            puts sydney.display_feature.colorize(:light_blue)
+            puts
+            puts sydney.display_distance.colorize(:light_blue)
+            puts
             choose_vehicle
         when 3
             perth = Cities.new("Perth","The capital of Western Australia", 4100)
-            perth.confirmation
-            perth.display_feature
-            perth.display_distance
+            puts
+            puts perth.confirmation.colorize(:light_blue)
+            puts
+            puts perth.display_feature.colorize(:light_blue)
+            puts
+            puts perth.display_distance.colorize(:light_blue)
+            puts
             choose_vehicle
         when 4
             cairns = Cities.new("Cairns","What a beautiful city, the number one city in Far North Queensland with a world wonder - The Barrier Reef", 1600)
-            cairns.confirmation
-            cairns.display_feature
-            cairns.display_distance
+            puts
+            cairns.confirmation.colorize(:light_blue)
+            puts
+            cairns.display_feature.colorize(:light_blue)
+            puts
+            cairns.display_distance.colorize(:light_blue)
+            puts
             choose_vehicle
         when 5
             puts
