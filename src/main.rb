@@ -1,6 +1,7 @@
 require_relative "classes/name"
 require_relative "methods/greeting"
 require_relative "classes/cities"
+require_relative "methods/choose_vehicle"
 require "lolize"
 logo
 greeting
@@ -38,9 +39,11 @@ while true
         when 1
             melbourne = Cities.new("Melbourne","This is the most liveable city in the world!", 2200)
             melbourne.display_distance  
+            choose_vehicle
         when 2
             sydney = Cities.new("Sydney","Here is where you get to see the Opera House!", 1100)
             sydney.display_distance
+            
         when 3
             perth = Cities.new("Perth","The capital of Western Australia", 4100)
             perth.display_distance
