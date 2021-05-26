@@ -1,8 +1,9 @@
+
 require_relative "classes/name"
-require_relative "methods/greeting"
 require_relative "classes/cities"
-require_relative "methods/choose_vehicle"
 require_relative "classes/fuel_consumption"
+require_relative "methods/choose_vehicle"
+require_relative "methods/greeting"
 require_relative "methods/know_more"
 require "lolize"
 logo

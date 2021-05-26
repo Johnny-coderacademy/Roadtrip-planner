@@ -1,5 +1,5 @@
 require_relative '../classes/cities'
-
+#test Cities class - confirmation method
 describe "Cities" do 
 
     melbourne = Cities.new("Melbourne","home",2000)
@@ -10,7 +10,7 @@ describe "Cities" do
     end
 
 end
-
+#test Cities class - display_feature method
 describe "Cities" do 
 
     melbourne = Cities.new("Melbourne","home",2000)
