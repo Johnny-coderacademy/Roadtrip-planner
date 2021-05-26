@@ -5,7 +5,11 @@ class Cities
     
     attr_reader  :city, :description, :distance
 
-    def initialize(city, description, distance)
+    def initialize(
+        city,
+        description,
+        distance
+    )
         @city = city
         @description = description
         @distance = distance
