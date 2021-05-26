@@ -3,7 +3,13 @@ require "artii"
 require "colorize"
 require "lolize"
 
-def greeting
+def logo
     logo = Artii::Base.new
-    puts logo.asciify("Roadtrip Planner! v 1.0").colorize(:yellow)
+    colorizer = Lolize::Colorizer.new
+    colorizer.write logo.asciify("Roadtrip Planner! v 1.0")#.colorize(:yellow)
+end
+
+def greeting
+    puts
+    puts "Wanting to have a roadtrip? You have come to the right place!".colorize(:yellow)
 end
