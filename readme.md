@@ -23,16 +23,16 @@ Those who do not know about their destination could use this app to read the des
 This app is useful for beginners since they could estimate how far they have to travel and decide on their route and budget. 
 ## Features
 1. Allow user to input their name up to 3 times
-<img src="./docs/f1.png" alt="name input">
+<img src="./docs/F1.png" alt="name input">
 
 2. Display travel destinations
-<img src="./docs/f2.png" alt="Cities">
+<img src="./docs/F2.png" alt="Cities">
 
 3. Display vehicle options & their fuel consumption
-<img src="./docs/f3.png" alt="Vehicles">
+<img src="./docs/F3.png" alt="Vehicles">
 
 4. A calculator to find out the fuel cost of each trip
-<img src="./docs/f4.png" alt="Calculator">
+<img src="./docs/F4.png" alt="Calculator">
 
 ## User Interaction & Experience
 1. Users are welcome with a colorful logo and greeting message using TTY-prompt, Artii and Lolize gems. 
