@@ -26,7 +26,7 @@ while user_name_count < 3 #allow users 3 attemps
             user_name = "Mysterious one"
             puts user_name.colorize(:green)
         else
-            puts "\nPlese enter your name: ".colorize(:yellow)
+            puts "\nPlease enter your name: ".colorize(:yellow)
         end
     end
 end
