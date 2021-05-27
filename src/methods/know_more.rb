@@ -5,7 +5,7 @@ def know_more
     case option
     when "Yes"
         progressbar
-        puts "\nOops! Sorry ...please wait for the latest update Roadtrip Planner 2.0\n".colorize(:light_blue)
+        puts "\nOops! Sorry ...please wait for the coming update Roadtrip Planner 2.0\n".colorize(:light_blue)
     when "No"
         puts "\nThank you for choosing Roadtrip Planner 1.0! Hope to see you on the road soon!\n".colorize(:light_blue)
         exit
