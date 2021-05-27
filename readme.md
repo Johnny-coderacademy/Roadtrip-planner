@@ -98,7 +98,9 @@ Day 8: Final check up before submitting
 
         gem "rspec", "~> 3.10"   
 
-5. Run the app with:
+5. locate the path to src folder by :
+`cd src`
+Run the app with:
 `ruby main.rb`
 or using script file: run_app.sh by typing the command: 
 `./run_app.sh`
