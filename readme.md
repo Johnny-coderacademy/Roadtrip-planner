@@ -58,6 +58,9 @@ This app is useful for beginners since they could estimate how far they have to 
 ## Diagrams
 <img src="./docs/diagram.png" alt="name input">
 
+## Trello board link
+https://trello.com/b/XmBwHiH6/terminal-app
+
 ## Implementation Plan
 Day 1: Start with a health check app, but this was not a good idea so I started again.
 <img src="./docs/1.png" alt="day 1">
