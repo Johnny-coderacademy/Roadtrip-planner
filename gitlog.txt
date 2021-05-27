@@ -1,0 +1,173 @@
+commit 8ab448231e20b938cb06930e7a5a1bac35aceed5
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 22:10:56 2021 +1000
+
+    add Trello board link to readme
+
+commit 0f476ea38263ee0486b5ed82935ff14e5108f2e8
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 21:43:36 2021 +1000
+
+    update readme
+
+commit a3a37d85b12f0bba9ccf5771d3362a0630a0935b
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 21:11:05 2021 +1000
+
+    update readme
+
+commit 5a205913c6a54951691d18047d940d845d61bd7a
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 20:43:35 2021 +1000
+
+    update readme
+
+commit 6f1ee6439d7128870a1daeaecc61346af16c6332
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 17:42:10 2021 +1000
+
+    add photos and update readme
+
+commit 57ff0bad2d10af72af584d656d811c2d89358d41
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 14:43:12 2021 +1000
+
+    Update readme.md
+
+commit 61e567f58da1da75cec5c5e83413dd97b626dac9
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 12:17:56 2021 +1000
+
+    update readme.md
+
+commit c1290af8dc1ba64cc22ae2fbab7bc5ffaf66d756
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 11:53:45 2021 +1000
+
+    add script file run_app.sh
+
+commit bbc508639f5aca2c2b153ab9df2e9fe6b670e7b3
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 10:45:05 2021 +1000
+
+    fix typo in greeting.rb
+
+commit 546d602048f4f0ef90adab7fdda0f9d48cc5111b
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 10:25:14 2021 +1000
+
+    add progress bar method
+
+commit ce0eb16c2cb604b1c4dd88b234c272d1d166ba69
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Thu May 27 10:02:44 2021 +1000
+
+    polishing code and add calculator.rb in methods
+
+commit d8382c915fcd598063890b97629e3b566b8656aa
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 23:38:49 2021 +1000
+
+    color adjustment on main.rb
+
+commit c9724fbfbf27d5ca7d29eb7debcf45428ef90da6
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 23:20:36 2021 +1000
+
+    add marker ->
+
+commit 69a87ca81058506a72712f5db8045413802915c9
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 23:16:01 2021 +1000
+
+    test rspec cities_spec.rb
+
+commit 39bd1d6762812b08004d64edb474fbb97050f704
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 22:50:18 2021 +1000
+
+    add display feature & confirmation methods in cities.rb
+
+commit b83e0056beaf824f70082418e607e5ee841b7c1d
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 22:40:39 2021 +1000
+
+    add & test rspec fuel_consumption
+
+commit e33a2b9f72a06a20bcd2b1c491708d811ef0cd7e
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 21:56:25 2021 +1000
+
+    add destination options in main.rb
+
+commit 2241d4f2fdc48786c1457cd04ac3b168499dae42
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 21:54:43 2021 +1000
+
+    add while loop in name input
+
+commit 28e8f5f424e6fe0b74efeaa07f625405eb6a6e3b
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 21:07:58 2021 +1000
+
+    add know_more.rb
+
+commit cce3a2979faf8c9954ecc41e62d7be5b2ca26033
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 19:52:41 2021 +1000
+
+    add choose_vehicle method
+
+commit 2463c700f12c6bcebe629e89b102fd63713a219c
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 19:40:45 2021 +1000
+
+    change input prompt
+
+commit 88ad1a98ad1823d3732dd8c76609e78f90dd589d
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 16:22:08 2021 +1000
+
+    add changes to name greeting, add cities.rb
+
+commit 83dbfcbc01e51417c36cedf6df1394721627b1af
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 12:06:06 2021 +1000
+
+    add logo and greeting methods
+
+commit 5d1d569e03b258008f0e1eca59a44f9c7a4d43a2
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 11:56:04 2021 +1000
+
+    add change to greeting.rb
+
+commit 22da8604adfe224ca5b7912591a9409ea0938ab9
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 11:46:52 2021 +1000
+
+    add TTY, colorize, rspec gems
+
+commit c04859d8115c20b5fdb3b681254e2ce40a4d5af9
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 11:34:16 2021 +1000
+
+    add Lolize gem
+
+commit 587d2ac3455f20788cdfa3e1a2181c023d99d788
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 11:33:10 2021 +1000
+
+    add Artii gem
+
+commit 333acda03bc4b1d5bc38b48411e6c9245f1caf5d
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 11:01:43 2021 +1000
+
+    add readme file
+
+commit f309c5dfa5bafdd44da431fbb8535f838a5d8f8e
+Author: Dung Nguyen <nddung2812@gmail.com>
+Date:   Wed May 26 10:48:58 2021 +1000
+
+    initial commit
