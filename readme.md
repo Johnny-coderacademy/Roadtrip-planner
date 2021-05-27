@@ -104,3 +104,11 @@ Run the app with:
 `ruby main.rb`
 or using script file: run_app.sh by typing the command: 
 `./run_app.sh`
+
+# Mininum system requirements
++ CPU 1.6 GHz or faster processor
++ Ram 1 GB of RAM
++ OS X Yosemite (10.10+)
++ Windows 7 (with .NET Framework 4.5.2), 8.0, 8.1 and 10 + (32-bit and 64-bit)
++ Linux (Debian): Ubuntu Desktop 16.04, Debian 9
++ Linux (Red Hat): Red Hat Enterprise Linux 7, CentOS 8, Fedora 24
