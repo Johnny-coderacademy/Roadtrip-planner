@@ -10,6 +10,6 @@ def logo
 end
 
 def greeting
-    puts "\nWanting to have a roadtrip? You have come to the right place!".colorize(:light_blue)
+    puts "\nWanting to have a road trip? You have come to the right place!".colorize(:light_blue)
     print "\nWe are here in Brisbane, please enter your name: ".colorize(:light_blue)
 end
