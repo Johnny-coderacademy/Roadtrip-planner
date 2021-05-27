@@ -14,7 +14,7 @@ class Car < Vehicle
     end
 
     def show_fuel_consumption
-        return "The fuel consumption of your selected vehicle - #{@name} is #{@fuel_consumption} ltr/100km"
+        return "\nThe fuel consumption of your selected vehicle - #{@name} is #{@fuel_consumption} ltr/100km\n"
     end
     
 end
@@ -27,6 +27,6 @@ class Motorbike < Vehicle
     end
 
     def show_fuel_consumption
-        return "The fuel consumption of your selected vehicle - #{@name} is #{@fuel_consumption} ltr/100km"
+        return "\nThe fuel consumption of your selected vehicle - #{@name} is #{@fuel_consumption} ltr/100km\n"
     end
 end

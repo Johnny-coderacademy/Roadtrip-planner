@@ -17,19 +17,19 @@ class Cities
 
     def confirmation
 
-        return "* You have selected #{@city} for your destination"
+        return "\n* You have selected #{@city} for your destination\n"
 
     end
 
     def display_feature
 
-        return "* What a great choice! #{@description}"
+        return "\n* What a great choice! #{@description}\n"
 
     end
 
     def display_distance
       
-        return "* Your estimated travel distance is #{@distance} kms"
+        return "\n* Your estimated travel distance is #{@distance} kms\n"
       
     end
 

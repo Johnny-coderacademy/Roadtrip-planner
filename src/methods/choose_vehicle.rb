@@ -6,18 +6,13 @@ def choose_vehicle
     motorbike = Motorbike.new(0.4)
     prompt = TTY::Prompt.new
     selection = prompt.select("How would you like to travel?", %w(Car Motorbike),marker: '->')
-    puts
     case selection
     when "Car"
         puts car.show_fuel_consumption.colorize(:light_blue)
-        puts
         know_more
-        puts
     when "Motorbike"
         puts motorbike.show_fuel_consumption.colorize(:light_blue)
-        puts
         know_more
-        puts
     end
 
 end

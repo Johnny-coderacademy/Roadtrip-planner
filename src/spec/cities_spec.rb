@@ -5,7 +5,7 @@ describe "Cities" do
     melbourne = Cities.new("Melbourne","home",2000)
 
     it "should return expected string for confirmation method " do
-        expected = "* You have selected Melbourne for your destination"
+        expected = "\n* You have selected Melbourne for your destination\n"
         expect(melbourne.confirmation).to eq(expected)
     end
 
@@ -16,7 +16,7 @@ describe "Cities" do
     melbourne = Cities.new("Melbourne","home",2000)
 
     it "should return expected string for display_feature method " do
-        expected = "* What a great choice! home"
+        expected = "\n* What a great choice! home\n"
         expect(melbourne.display_feature).to eq(expected)
     end
 
