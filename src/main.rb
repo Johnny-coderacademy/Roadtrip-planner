@@ -7,6 +7,7 @@ require_relative "methods/choose_vehicle"
 require_relative "methods/greeting"
 require_relative "methods/know_more"
 require_relative "methods/calculator"
+require_relative "methods/progress_bar"
 #required gems
 require "lolize"
 #logo & greeting message
@@ -21,17 +22,17 @@ while user_name_count < 3 #allow users 3 attemps
     else 
         user_name_count += 1
         if user_name_count == 3
-            puts "\n Hi there!".colorize(:light_blue)
-            user_name = "\nMysterious one!\n"
+            puts "\n Hi there!\n".colorize(:light_blue)
+            user_name = "Mysterious one"
             puts user_name.colorize(:green)
         else
-            puts "Plese enter your name: ".colorize(:yellow)
+            puts "\nPlese enter your name: ".colorize(:yellow)
         end
     end
 end
 motorcylist = User.new(user_name)
 puts "\nLet's get going #{motorcylist.name}!\n".colorize(:light_blue)
-puts "\nWhere would you like to travel today? Or select \"Exit\" to quit\n".colorize(:light_blue)
+puts "Where would you like to travel today? OR select \"Exit\" to quit\n".colorize(:light_blue)
 #select the travel destinations
 while true #loop used to ask questions until user exit program
     destination = TTY::Prompt.new.select("Please select from the following options:",  cycle: true, marker: '->', echo: false) do |places| #display city options
