@@ -23,12 +23,16 @@ Those who do not know about their destination could use this app to read the des
 This app is useful for beginners since they could estimate how far they have to travel and decide on their route and budget. 
 ## Features
 1. Allow user to input their name up to 3 times
+<img src="./docs/f1.png" alt="name input">
 
 2. Display travel destinations
+<img src="./docs/f2.png" alt="Cities">
 
 3. Display vehicle options & their fuel consumption
+<img src="./docs/f3.png" alt="Vehicles">
 
 4. A calculator to find out the fuel cost of each trip
+<img src="./docs/f4.png" alt="Calculator">
 
 ## User Interaction & Experience
 1. Users are welcome with a colorful logo and greeting message using TTY-prompt, Artii and Lolize gems. 
@@ -44,11 +48,33 @@ This app is useful for beginners since they could estimate how far they have to 
 6. After users have selected their vehicle and travel options, they can use a calculator to find out how much money they need to spend on fuel. While calculating, a progress bar display.
 
 7. Finally, an Exit option located at the bottom will allow users to quit the program once they finish their trip selection.
-## Diagrams
+## Flow Chart
 1. Initial Flow Chart
 <img src="./docs/initial.png" alt="initial flow chart">
 
+2. Revised Flow Chart
+<img src="./docs/revised.png" alt="revised flow chart">
+
+## Diagrams
+<img src="./docs/diagram.png" alt="name input">
+
 ## Implementation Plan
+Day 1: Start with a health check app, but this was not a good idea so I started again.
+<img src="./docs/1.png" alt="day 1">
+Day 2: Start with Roadtrip_Planner idea and approved by educator.
+<img src="./docs/2.png" alt="2">
+Day 3: Mapping features and decided on design
+<img src="./docs/3.png" alt="3">
+Day 4: Start coding and trying complicated codes
+<img src="./docs/4.png" alt="4">
+Day 5: Decide to remove some intial ideas to make the app simple
+<img src="./docs/5.png" alt="5">
+Day 6: Prepare for demo presentation & tests
+<img src="./docs/6.png" alt="6">
+Day 7: Bug fixing, cleaning codes
+<img src="./docs/7.png" alt="7">
+Day 8: Final check up before submitting
+<img src="./docs/8.png" alt="8">
 
 # Help Documentation
 
